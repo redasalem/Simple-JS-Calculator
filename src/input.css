@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+form input{
+      @apply border-0 outline-0 w-[60px] h-[60px] rounded-[10px]
+       shadow-lg shadow-blue-300 bg-transparent text-[20px] text-white cursor-pointer sm:m-[10px]
+       m-[2px]
+}
