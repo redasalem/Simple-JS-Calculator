@@ -1,65 +1,58 @@
 # 🧮 Simple Calculator
 
-مشروع بسيط لآلة حاسبة تم تنفيذه باستخدام:
-- ✅ HTML
-- ✅ TailwindCSS
-- ✅ JavaScript (داخل العناصر باستخدام `onclick`)
+A simple calculator project built using:
+- ✅ HTML  
+- ✅ TailwindCSS  
+- ✅ JavaScript (via inline `onclick` events)
 
 ---
 
-## 💡 فكرة المشروع
-آلة حاسبة بسيطة تقوم بإجراء العمليات الحسابية الأساسية (جمع، طرح، ضرب، قسمة) من خلال واجهة مستخدم بسيطة ومتجاوبة، بدون استخدام أي مكتبات خارجية أو ملفات JS منفصلة.
+## 💡 Project Idea
+
+A basic calculator that performs standard arithmetic operations (addition, subtraction, multiplication, division) with a simple and responsive user interface. No external libraries or separate JS files were used.
 
 ---
 
-## 📦 مميزات المشروع
+## 📦 Features
 
-- تصميم عصري باستخدام TailwindCSS.
-- واجهة متجاوبة مع الجوال.
-- استخدام دوال `onclick` داخل عناصر HTML مباشرة.
-- تنفيذ العمليات الحسابية باستخدام `eval()` لتبسيط الكود.
-- مناسب جدًا للمبتدئين في تعلم DOM و TailwindCSS.
-
----
-
-## 📸 صورة من المشروع
-
-> *(يُفضل ترفع لقطة شاشة screenshot هنا بعد الرفع على GitHub)*
+- Modern design using TailwindCSS.  
+- Responsive UI for mobile devices.  
+- Inline `onclick` event handlers inside HTML elements.  
+- Uses `eval()` to simplify arithmetic processing.  
+- Perfect for beginners learning DOM and TailwindCSS.
 
 ---
 
-## 🚀 طريقة التشغيل
+## 📸 Screenshot
 
-1. قم بتحميل الملفات.
-2. افتح `index.html` في المتصفح.
-3. استمتع باستخدام الآلة الحاسبة!
-
-1-npm install
-
-2-npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
-
+> *(You can upload a screenshot here after pushing the project to GitHub)*
 
 ---
 
-## 📁 مكونات المشروع
+## 🚀 How to Run
 
-- `index.html` : يحتوي على هيكل الصفحة والدوال.
-- لا يوجد ملف JS خارجي، كل الأحداث مكتوبة داخل العناصر.
+1. Download the project files.
+2. Open `index.html` in your browser.
+3. Enjoy the calculator!
 
----
+If you're using Tailwind via CLI:
 
-## 🙋‍♂️ المطور
+```bash
+npm install
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+📁 Project Structure
+index.html: Contains the UI structure and logic.
 
-👨‍💻 الاسم: رضا سالم  
-🎯 التخصص: مطور واجهات أمامية (Front-End Developer)  
-🚀 التقنيات: HTML, CSS, Sass, TailwindCSS, JavaScript, React, Webpack
+No external JS file; all event handlers are written inline.
 
----
+🙋‍♂️ Developer
+👨‍💻 Name: Reda Salem
+🎯 Role: Front-End Developer
+🚀 Skills: HTML, CSS, Sass, TailwindCSS, JavaScript, React, Webpack
 
-## 📌 ملاحظات
+This project was quickly built late at night as a fun exercise to practice TailwindCSS and JSX-like inline event handling 
 
-> هذا المشروع تم تنفيذه كتمرين سريع قبل النوم للتسلية والتدريب على التنسيق بـ TailwindCSS وأسلوب JSX داخل HTML 😄
-
----
-
-## ⭐️ لا تنسى تعمل ⭐️ للمشروع لو عجبك!
+⭐️ If you like it, consider leaving a star ⭐️!
+yaml
+Copy
+Edit
