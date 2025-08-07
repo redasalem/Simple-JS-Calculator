@@ -1,8 +1,6 @@
 # node modules
 node_modules/
 
-# Tailwind CSS output file
-output.css
 
 # Build files
 dist/
